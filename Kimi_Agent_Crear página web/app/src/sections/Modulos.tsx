@@ -5,10 +5,13 @@ import { BookOpen, Clock, Compass, Brain, Shield, Globe, FileText } from "lucide
 const modules = [
   {
     number: "01",
-    title: "Identificación de Oportunidades de Transformación del Perfil Socioeconómico de la Región",
+    title: "Identificación de Oportunidades de Transformación del Perfil Socioeconómico de la Región afín al Desarrollo Portuario Local",
     hours: 16,
     icon: Compass,
     color: "from-blue-500 to-indigo-600",
+    teacher: "Sasha Juliana",
+    description:
+      "Analiza el contexto portuario del Urabá antioqueño para identificar las transformaciones económicas que trae consigo el nuevo ecosistema de puertos. Los participantes aprenden a leer el territorio, reconocer sus capacidades locales y convertir los desafíos regionales en oportunidades concretas de desarrollo.",
     topics: [
       "Demandas del Nuevo Ecosistema Portuario",
       "Identificación de Capacidades Locales Disponibles",
@@ -21,11 +24,14 @@ const modules = [
     hours: 16,
     icon: Brain,
     color: "from-purple-500 to-pink-600",
+    teacher: "Andrés Blandón",
+    description:
+      "Introduce la Inteligencia Artificial como apoyo estratégico para la toma de decisiones en el sector portuario. Los participantes aprenden a buscar, procesar y analizar información con algoritmos de aprendizaje automático y Procesamiento del Lenguaje Natural (PLN), y a desplegar modelos para resolver problemas reales del entorno.",
     topics: [
       "Introducción a la Inteligencia Artificial (IA)",
       "Búsqueda avanzada de datos y procesamiento de información disruptiva para fortalecer la toma de decisiones",
-      "Uso Práctico de Algoritmos de Aprendizaje y Procesamiento del Lenguaje Natural",
-      "Despliegue de Modelos para Tratamiento de Información Avanzada",
+      "Uso práctico de algoritmos de aprendizaje y Procesamiento del Lenguaje Natural",
+      "Despliegue de modelos para el tratamiento de información avanzada",
     ],
   },
   {
@@ -34,11 +40,14 @@ const modules = [
     hours: 16,
     icon: Shield,
     color: "from-emerald-500 to-teal-600",
+    teacher: "Alejandro Almario Rincón",
+    description:
+      "Enseña a configurar ecosistemas digitales de vigilancia para anticipar cambios técnicos, normativos y competitivos en el sector portuario. Los participantes identifican actores clave, tendencias globales y desarrollan habilidades en ciberseguridad y gestión de amenazas aplicadas al entorno portuario.",
     topics: [
       "Introducción a la Vigilancia Tecnológica (VT)",
-      "Configuración de un Ecosistema Digital de Vigilancia. Identificación de Competencias, Aliados y demás Actores Clave en las Tendencias Globales del Desarrollo Portuario",
-      "Fundamentos de la Ciberseguridad aplicados al Fortalecimiento del Desarrollo Portuario",
-      "Monitoreo, Control de Amenazas y Gestión de Vulnerabilidades Aplicados al Fortalecimiento del Desarrollo Portuario",
+      "Configuración de un ecosistema digital de vigilancia: identificación de competencias, aliados y demás actores clave en las tendencias globales del desarrollo portuario",
+      "Fundamentos de la ciberseguridad aplicados al fortalecimiento del desarrollo portuario",
+      "Monitoreo, control de amenazas y gestión de vulnerabilidades aplicados al fortalecimiento del desarrollo portuario",
     ],
   },
   {
@@ -49,10 +58,12 @@ const modules = [
     color: "from-cyan-500 to-teal-500",
     teacher: "Durley López",
     highlighted: true,
+    description:
+      "Integra las competencias adquiridas en los módulos anteriores para estructurar propuestas técnicas de proyectos financiables. A través de un workshop práctico, cada participante formula su propia propuesta con objetivos, presupuesto base y cronograma, orientada a la transformación socioeconómica de Urabá.",
     topics: [
       "Estructuras de financiación (Grants, Capital Semilla, Cooperación Internacional)",
       "Metodologías más usadas en la formulación de proyectos enfocados en la promoción del desarrollo portuario",
-      "Workshop de formulación: los participantes redactarán una propuesta técnica de proyecto contextualizada con la transformación socioeconómica de Urabá y el uso de herramientas tecnológicas de vanguardia (IA) y (VT)",
+      "Workshop de formulación: los participantes redactarán una propuesta técnica de proyecto (objetivos, presupuesto base y cronograma) contextualizada con la necesaria transformación socioeconómica de la subregión del Urabá, aplicando herramientas de vanguardia (IA) y (VT) para promover el desarrollo portuario",
     ],
   },
   {
@@ -61,10 +72,13 @@ const modules = [
     hours: 16,
     icon: Globe,
     color: "from-orange-500 to-amber-500",
+    teacher: "Profesor de Cádiz",
+    description:
+      "Presenta el panorama de financiación pública y privada disponible desde Europa para proyectos de desarrollo portuario, sostenibilidad e innovación. Los participantes aprenden a identificar convocatorias, alinear sus propuestas con marcos estratégicos internacionales y explorar alianzas público-privadas (PPP).",
     topics: [
-      "Identificación del Marco Estratégico y Alineación Internacional de Financiación (Prioridades, Contribución, Normativa)",
-      "Oportunidades de Financiación Públicas Europeas (EuropeAid, Horizon Europe, Erasmus+)",
-      "Oportunidades de Financiación Privadas Europeas (Fondos de Inversión de Impacto, Bancos de Desarrollo, Fondos Climáticos y Verdes, posibilidades de Asociaciones público-privadas)",
+      "Identificación del marco estratégico y alineación internacional de financiación (Prioridades, Contribución, Normativa)",
+      "Oportunidades de financiación públicas europeas: EuropeAid (desarrollo sostenible, gobernanza y reducción de la pobreza), Horizon Europe (investigación e innovación), Erasmus+ (educación y formación)",
+      "Oportunidades de financiación privadas europeas: Fondos de Inversión de Impacto, Bancos de Desarrollo, Fondos Climáticos y Verdes, y posibilidades de Asociaciones Público-Privadas (PPP)",
     ],
   },
 ];
@@ -152,14 +166,20 @@ export default function Modulos() {
                     </h3>
 
                     {module.teacher && (
-                      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 mb-4">
+                      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 mb-3">
                         <span className="text-xs text-cyan-300 font-medium">
                           Docente: {module.teacher}
                         </span>
                       </div>
                     )}
 
-                    <div className="space-y-2 mt-4">
+                    {module.description && (
+                      <p className="text-sm text-slate-300 leading-relaxed mb-4 border-l-2 border-cyan-500/30 pl-3">
+                        {module.description}
+                      </p>
+                    )}
+
+                    <div className="space-y-2">
                       {module.topics.map((topic, i) => (
                         <div key={i} className="flex items-start gap-2">
                           <div
