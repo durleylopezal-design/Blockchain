@@ -71,10 +71,10 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="max-w-3xl mx-auto text-lg sm:text-xl text-slate-300 leading-relaxed">
-            Simulacion de trazabilidad logistica de exportacion con Hyperledger Fabric para el
-            corredor bananero del Uraba antioqueno. Una alianza entre la{" "}
-            <span className="text-cyan-400 font-semibold">Universidad Catolica Luis Amigo</span>,
-            la <span className="text-cyan-400 font-semibold">Universidad de Cadiz</span> y{" "}
+            Simulación de trazabilidad logística de exportación con Hyperledger Fabric para el
+            corredor bananero del Urabá antioqueño. Una alianza entre la{" "}
+            <span className="text-cyan-400 font-semibold">Universidad Católica Luis Amigo</span>,
+            la <span className="text-cyan-400 font-semibold">Universidad de Cádiz</span> y{" "}
             <span className="text-cyan-400 font-semibold">Puerto Antioquia</span>.
           </p>
 
@@ -138,7 +138,7 @@ export default function Hero() {
             transition={{ duration: 2, repeat: Infinity }}
             className="flex flex-col items-center gap-2 text-slate-400 hover:text-cyan-400 transition-colors"
           >
-            <span className="text-xs uppercase tracking-widest">Descubrir mas</span>
+            <span className="text-xs uppercase tracking-widest">Descubrir más</span>
             <ArrowDown className="w-5 h-5" />
           </motion.a>
         </motion.div>

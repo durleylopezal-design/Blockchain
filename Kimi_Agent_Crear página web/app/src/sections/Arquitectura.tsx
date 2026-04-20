@@ -14,9 +14,9 @@ import {
 const layers = [
   {
     icon: Wifi,
-    title: "Capa IoT / Integracion Portuaria",
+    title: "Capa IoT / Integración Portuaria",
     description:
-      "GPS Tracking contenedores, sensores de temperatura/humedad, APIs DIAN/VUCE para alimentar eventos al ledger.",
+      "GPS Tracking de contenedores, sensores de temperatura/humedad y APIs DIAN/VUCE para alimentar eventos al ledger.",
     color: "from-blue-500 to-indigo-600",
   },
   {
@@ -30,21 +30,21 @@ const layers = [
     icon: Server,
     title: "Capa de Consenso y Red",
     description:
-      "Nodos peer y orderer con consenso Raft que garantizan el acuerdo distribuido. Fabric CA gestiona identidades con certificados x.509.",
+      "Nodos peer y orderer con consenso Raft que garantizan el acuerdo distribuido. Fabric CA gestiona identidades con certificados X.509.",
     color: "from-emerald-500 to-teal-600",
   },
   {
     icon: FileCheck,
     title: "Capa Smart Contracts / Chaincode",
     description:
-      "Logica de negocio encapsulada en contratos inmutables. Define que datos se registran, quien los puede leer y bajo que condiciones se ejecutan transiciones de estado.",
+      "Lógica de negocio encapsulada en contratos inmutables. Define qué datos se registran, quién los puede leer y bajo qué condiciones se ejecutan transiciones de estado.",
     color: "from-cyan-500 to-teal-500",
   },
   {
     icon: Layers,
-    title: "Capa de Aplicacion",
+    title: "Capa de Aplicación",
     description:
-      "Dashboard Web, App Portuaria, API Gateway REST/GraphQL y Hyperledger Explorer - la unica capa visible al usuario final.",
+      "Dashboard Web, App Portuaria, API Gateway REST/GraphQL y Hyperledger Explorer: la única capa visible al usuario final.",
     color: "from-orange-500 to-amber-500",
   },
 ];
@@ -89,7 +89,7 @@ export default function Arquitectura() {
 
           <p className="max-w-3xl mx-auto text-lg text-slate-300">
             Red blockchain permissioned basada en Hyperledger Fabric para la trazabilidad de
-            cadenas logisticas de exportacion en entornos portuarios, con Puerto Antioquia como
+            cadenas logísticas de exportación en entornos portuarios, con Puerto Antioquia como
             empresa ancla.
           </p>
         </motion.div>
@@ -180,12 +180,12 @@ export default function Arquitectura() {
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
-              "Naturaleza permissioned con gestion nativa de identidades PKI",
+              "Naturaleza permissioned con gestión nativa de identidades PKI",
               "Canales privados y Private Data Collections (PDC)",
               "Compatibilidad oficial ARM64 para Raspberry Pi",
               "Chaincode en Go, Java, Node.js",
-              "Finalidad inmediata de bloque (no probabilistica)",
-              "Adopcion probada: TradeLens, GSBN, Walmart",
+              "Finalidad inmediata de bloque (no probabilística)",
+              "Adopción probada: TradeLens, GSBN, Walmart",
             ].map((item, i) => (
               <div
                 key={i}

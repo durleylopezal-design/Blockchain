@@ -6,27 +6,27 @@ import { Target, Users, Lightbulb, TrendingUp } from "lucide-react";
 const features = [
   {
     icon: Target,
-    title: "Transformacion Productiva",
+    title: "Transformación Productiva",
     description:
-      "Impulso de la transformacion productiva de la region de Uraba mediante la cooperacion cientifica internacional con la Universidad de Cadiz (Espana).",
+      "Impulso de la transformación productiva de la región de Urabá mediante la cooperación científica internacional con la Universidad de Cádiz (España).",
   },
   {
     icon: Users,
     title: "Multi-Actor",
     description:
-      "Alianza entre Universidad Catolica Luis Amigo (lider), UCC, Corporacion Universitaria Remington y Universidad de Cadiz para transferencia de conocimiento.",
+      "Alianza entre la Universidad Católica Luis Amigo (líder), UCC, Corporación Universitaria Remington y Universidad de Cádiz para la transferencia de conocimiento.",
   },
   {
     icon: Lightbulb,
-    title: "Simulacion Blockchain",
+    title: "Simulación Blockchain",
     description:
-      "Implementacion de un entorno de simulacion basado en tecnologia Blockchain para la trazabilidad de cadenas logisticas de exportacion.",
+      "Implementación de un entorno de simulación basado en tecnología Blockchain para la trazabilidad de cadenas logísticas de exportación.",
   },
   {
     icon: TrendingUp,
-    title: "Eje Tematico ICETEX",
+    title: "Eje Temático ICETEX",
     description:
-      "Enmarcado en el eje de Transformacion Digital - Ciudades y Territorios Inteligentes de la Convocatoria ICETEX Expertos Internacionales 2025.",
+      "Enmarcado en el eje de Transformación Digital - Ciudades y Territorios Inteligentes de la Convocatoria ICETEX Expertos Internacionales 2025.",
   },
 ];
 
@@ -53,28 +53,28 @@ export default function SobreProyecto() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
               Transferencia de{" "}
               <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">
-                Conocimiento Cadiz - Uraba
+                Conocimiento Cádiz - Urabá
               </span>
             </h2>
 
             <p className="text-slate-300 text-lg leading-relaxed">
-              CADUR-TEC es una alianza academica internacional que vincula a la Universidad Catolica
-              Luis Amigo como institucion lider, junto con la Universidad Cooperativa de Colombia,
-              la Corporacion Universitaria Remington y la Universidad de Cadiz (Espana).
+              CADUR-TEC es una alianza académica internacional que vincula a la Universidad Católica
+              Luis Amigo como institución líder, junto con la Universidad Cooperativa de Colombia,
+              la Corporación Universitaria Remington y la Universidad de Cádiz (España).
             </p>
 
             <p className="text-slate-400 leading-relaxed">
-              El objetivo principal es transferir capacidades en tecnologias emergentes hacia el
-              territorio del Uraba antioqueno, una de las regiones con mayor potencial logistico y
-              agroindustrial de Colombia, concentrando mas del 70% de las exportaciones de banano
-              del pais.
+              El objetivo principal es transferir capacidades en tecnologías emergentes hacia el
+              territorio del Urabá antioqueño, una de las regiones con mayor potencial logístico y
+              agroindustrial de Colombia, concentrando más del 70% de las exportaciones de banano
+              del país.
             </p>
 
             <p className="text-slate-400 leading-relaxed">
-              La Actividad 3 del proyecto contempla la implementacion de un entorno de simulacion
-              basado en tecnologia Blockchain para la trazabilidad de cadenas logisticas de
-              exportacion, vinculando directamente a Puerto Antioquia y los principales productos
-              de la region: banano, flores y derivados agroindustriales.
+              La Actividad 3 del proyecto contempla la implementación de un entorno de simulación
+              basado en tecnología Blockchain para la trazabilidad de cadenas logísticas de
+              exportación, vinculando directamente a Puerto Antioquia y los principales productos
+              de la región: banano, flores y derivados agroindustriales.
             </p>
 
             {/* Stats */}
@@ -104,8 +104,8 @@ export default function SobreProyecto() {
           >
             <div className="relative rounded-2xl overflow-hidden">
               <img
-                src="/universidad.jpg"
-                alt="Universidad Catolica Luis Amigo - Sede Apartado"
+                src="/univesidad.jpg"
+                alt="Universidad Católica Luis Amigo - Sede Apartado"
                 className="w-full h-auto object-cover rounded-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent" />
@@ -128,8 +128,8 @@ export default function SobreProyecto() {
                 </div>
               </div>
               <p className="text-xs text-slate-400">
-                Universidad Catolica Luis Amigo, UCC, Corporacion Universitaria Remington y
-                Universidad de Cadiz.
+                Universidad Católica Luis Amigo, UCC, Corporación Universitaria Remington y
+                Universidad de Cádiz.
               </p>
             </motion.div>
           </motion.div>

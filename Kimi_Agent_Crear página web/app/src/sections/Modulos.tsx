@@ -5,66 +5,66 @@ import { BookOpen, Clock, Compass, Brain, Shield, Globe, FileText } from "lucide
 const modules = [
   {
     number: "01",
-    title: "Identificacion de Oportunidades de Transformacion del Perfil Socioeconomico de la Region",
+    title: "Identificación de Oportunidades de Transformación del Perfil Socioeconómico de la Región",
     hours: 16,
     icon: Compass,
     color: "from-blue-500 to-indigo-600",
     topics: [
       "Demandas del Nuevo Ecosistema Portuario",
-      "Identificacion de Capacidades Locales Disponibles",
-      "Desafios Regionales como Oportunidades para Fortalecer el Desarrollo Portuario",
+      "Identificación de Capacidades Locales Disponibles",
+      "Desafíos Regionales como Oportunidades para Fortalecer el Desarrollo Portuario",
     ],
   },
   {
     number: "02",
-    title: "Fundamentos de la Inteligencia Artificial como Herramienta Estrategica en la Toma de Decisiones",
+    title: "Fundamentos de la Inteligencia Artificial como Herramienta Estratégica en la Toma de Decisiones",
     hours: 16,
     icon: Brain,
     color: "from-purple-500 to-pink-600",
     topics: [
-      "Introduccion a la Inteligencia Artificial (IA)",
-      "Busqueda Avanzada de datos y Procesamiento De la Informacion Disruptivas en aras de Fortalecer la Toma de Decisiones",
-      "Uso Practico de Algoritmos de Aprendizajes y Procesamiento del Lenguaje Natural",
-      "Despliegue de Modelos en Tratamiento de Informacion Avanzada",
+      "Introducción a la Inteligencia Artificial (IA)",
+      "Búsqueda avanzada de datos y procesamiento de información disruptiva para fortalecer la toma de decisiones",
+      "Uso Práctico de Algoritmos de Aprendizaje y Procesamiento del Lenguaje Natural",
+      "Despliegue de Modelos para Tratamiento de Información Avanzada",
     ],
   },
   {
     number: "03",
-    title: "Vigilancia Tecnologica Aplicada a la Promocion del Desarrollo Portuario",
+    title: "Vigilancia Tecnológica Aplicada a la Promoción del Desarrollo Portuario",
     hours: 16,
     icon: Shield,
     color: "from-emerald-500 to-teal-600",
     topics: [
-      "Introduccion a la Vigilancia Tecnologica (VT)",
-      "Configuracion de un Ecosistema Digital de Vigilancia. Identificacion de Competencias, Aliados y demas Actores Claves en las Tendencias Globales del Desarrollo Portuario",
-      "Fundamentos de la Ciberseguridad aplicadas al Fortalecimiento del Desarrollo Portuario",
-      "Monitoreos, Control de Amenazas y Gestion de vulnerabilidades Aplicadas al Fortalecimiento del Desarrollo Portuario",
+      "Introducción a la Vigilancia Tecnológica (VT)",
+      "Configuración de un Ecosistema Digital de Vigilancia. Identificación de Competencias, Aliados y demás Actores Clave en las Tendencias Globales del Desarrollo Portuario",
+      "Fundamentos de la Ciberseguridad aplicados al Fortalecimiento del Desarrollo Portuario",
+      "Monitoreo, Control de Amenazas y Gestión de Vulnerabilidades Aplicados al Fortalecimiento del Desarrollo Portuario",
     ],
   },
   {
     number: "04",
-    title: "Propuesta Tecnica de Proyecto robustecidas por la (IA) y la (VT)",
+    title: "Propuesta Técnica de Proyecto robustecida por la (IA) y la (VT)",
     hours: 16,
     icon: FileText,
     color: "from-cyan-500 to-teal-500",
-    teacher: "Durley Lopez",
+    teacher: "Durley López",
     highlighted: true,
     topics: [
-      "Estructuras de financiacion (Grants, Capital Semilla, Cooperacion Internacional)",
-      "Metodologias Mas Usadas en la Formulacion de Proyectos enfocados a la Promocion de Desarrollo Portuario",
-      "Workshop de Formulacion. Los participantes redactaran una Propuesta Tecnica de Proyecto contextualizada con la transformacion socioeconomica de Uraba y el uso de las Herramientas Tecnologicas de Vanguardia (IA) y (VT)",
+      "Estructuras de financiación (Grants, Capital Semilla, Cooperación Internacional)",
+      "Metodologías más usadas en la formulación de proyectos enfocados en la promoción del desarrollo portuario",
+      "Workshop de formulación: los participantes redactarán una propuesta técnica de proyecto contextualizada con la transformación socioeconómica de Urabá y el uso de herramientas tecnológicas de vanguardia (IA) y (VT)",
     ],
   },
   {
     number: "05",
-    title: "Oportunidades de Financiacion de Recursos Internacionales",
+    title: "Oportunidades de Financiación de Recursos Internacionales",
     hours: 16,
     icon: Globe,
     color: "from-orange-500 to-amber-500",
     topics: [
-      "Identificacion del Marco Estrategico y Alineacion Internacional de Financiacion (Prioridades, Contribucion, Normativa)",
-      "Oportunidades de Financiacion Publicas Europeas (EuropeAid, Horizon Europe, Erasmus+)",
-      "Oportunidades de Financiacion Privadas Europeas (Fondos de Inversion de Impacto, Bancos de Desarrollo, Fondos Climaticos y Verdes, posibilidades de Asociaciones publico-privadas)",
+      "Identificación del Marco Estratégico y Alineación Internacional de Financiación (Prioridades, Contribución, Normativa)",
+      "Oportunidades de Financiación Públicas Europeas (EuropeAid, Horizon Europe, Erasmus+)",
+      "Oportunidades de Financiación Privadas Europeas (Fondos de Inversión de Impacto, Bancos de Desarrollo, Fondos Climáticos y Verdes, posibilidades de Asociaciones público-privadas)",
     ],
   },
 ];
@@ -91,14 +91,14 @@ export default function Modulos() {
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             Los{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">
-              5 Modulos
+              5 Módulos
             </span>{" "}
             del Diplomado
           </h2>
 
           <p className="max-w-2xl mx-auto text-lg text-slate-300">
-            80 horas de formacion distribuidas en 5 modulos especializados que integran teoria y
-            practica para el desarrollo portuario sostenible.
+            80 horas de formación distribuidas en 5 módulos especializados que integran teoría y
+            práctica para el desarrollo portuario sostenible.
           </p>
         </motion.div>
 
@@ -119,7 +119,7 @@ export default function Modulos() {
               {/* Highlighted Badge */}
               {module.highlighted && (
                 <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30">
-                  <span className="text-xs font-semibold text-cyan-300">Modulo Destacado</span>
+                  <span className="text-xs font-semibold text-cyan-300">Módulo Destacado</span>
                 </div>
               )}
 
@@ -190,7 +190,7 @@ export default function Modulos() {
             </div>
             <div>
               <div className="text-3xl font-bold text-cyan-400">5</div>
-              <div className="text-sm text-slate-400 mt-1">Modulos Especializados</div>
+              <div className="text-sm text-slate-400 mt-1">Módulos Especializados</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-cyan-400">Mixto</div>

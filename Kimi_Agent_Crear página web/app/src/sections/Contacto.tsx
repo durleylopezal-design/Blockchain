@@ -12,10 +12,10 @@ import {
 } from "lucide-react";
 
 const allies = [
-  "Universidad Catolica Luis Amigo",
+  "Universidad Católica Luis Amigo",
   "Universidad Cooperativa de Colombia",
-  "Corporacion Universitaria Remington",
-  "Universidad de Cadiz (Espana)",
+  "Corporación Universitaria Remington",
+  "Universidad de Cádiz (España)",
   "Puerto Antioquia",
   "ICETEX",
 ];
@@ -43,7 +43,7 @@ export default function Contacto() {
             <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">
               Aliados
             </span>{" "}
-            Estrategicos
+            Estratégicos
           </h3>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -85,9 +85,9 @@ export default function Contacto() {
               </div>
 
               <p className="text-slate-300 leading-relaxed">
-                Proyecto de cooperacion cientifica internacional para la transformacion productiva
-                de la region de Uraba mediante tecnologias emergentes como Blockchain, Inteligencia
-                Artificial y Vigilancia Tecnologica aplicadas al desarrollo portuario.
+                Proyecto de cooperación científica internacional para la transformación productiva
+                de la región de Urabá mediante tecnologías emergentes como Blockchain, Inteligencia
+                Artificial y Vigilancia Tecnológica aplicadas al desarrollo portuario.
               </p>
             </div>
 
@@ -95,7 +95,7 @@ export default function Contacto() {
               <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
                 <MapPin className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-sm font-semibold text-white">Ubicacion</div>
+                  <div className="text-sm font-semibold text-white">Ubicación</div>
                   <p className="text-sm text-slate-400">
                     Universidad Catolica Luis Amigo
                     <br />
@@ -119,7 +119,7 @@ export default function Contacto() {
               <div className="flex items-start gap-4 p-4 rounded-xl bg-white/5 border border-white/10">
                 <Mail className="w-5 h-5 text-cyan-400 flex-shrink-0 mt-0.5" />
                 <div>
-                  <div className="text-sm font-semibold text-white">Coordinacion del Proyecto</div>
+                  <div className="text-sm font-semibold text-white">Coordinación del Proyecto</div>
                   <p className="text-sm text-slate-400">
                     Paula Andrea Uribe Polo
                     <br />
@@ -150,7 +150,7 @@ export default function Contacto() {
             className="space-y-8"
           >
             <div className="p-8 rounded-2xl bg-gradient-to-br from-slate-900 to-slate-800 border border-cyan-500/20">
-              <h4 className="text-xl font-semibold text-white mb-6">Enlaces de Interes</h4>
+              <h4 className="text-xl font-semibold text-white mb-6">Enlaces de Interés</h4>
 
               <div className="space-y-3">
                 {[
@@ -192,14 +192,14 @@ export default function Contacto() {
             </div>
 
             <div className="p-8 rounded-2xl bg-gradient-to-br from-cyan-500/10 to-teal-500/10 border border-cyan-500/20">
-              <h4 className="text-xl font-semibold text-white mb-4">Ejes Tematicos ICETEX</h4>
+              <h4 className="text-xl font-semibold text-white mb-4">Ejes Temáticos ICETEX</h4>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="w-8 h-8 rounded-lg bg-cyan-500/20 flex items-center justify-center flex-shrink-0">
                     <span className="text-sm text-cyan-400 font-bold">1</span>
                   </div>
                   <p className="text-sm text-slate-300">
-                    <span className="text-white font-medium">Transformacion Digital</span>
+                    <span className="text-white font-medium">Transformación Digital</span>
                     <br />
                     Ciudades y Territorios Inteligentes
                   </p>

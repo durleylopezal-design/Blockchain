@@ -4,7 +4,7 @@ import { BookOpen, Clock, Users, GraduationCap, Calendar, MapPin } from "lucide-
 
 const stats = [
   { icon: Clock, value: "80h", label: "Intensidad Horaria" },
-  { icon: BookOpen, value: "5", label: "Modulos" },
+  { icon: BookOpen, value: "5", label: "Módulos" },
   { icon: Users, value: "30", label: "Cupo" },
   { icon: GraduationCap, value: "Mixto", label: "Modalidad" },
 ];
@@ -32,20 +32,20 @@ export default function Diplomado() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/20 mb-6">
             <GraduationCap className="w-4 h-4 text-cyan-400" />
-            <span className="text-sm text-cyan-300 font-medium">Formacion Academica</span>
+            <span className="text-sm text-cyan-300 font-medium">Formación Académica</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
             Diplomado en{" "}
             <span className="bg-gradient-to-r from-cyan-400 via-teal-400 to-cyan-300 bg-clip-text text-transparent">
-              Vigilancia Tecnologica e IA
+              Vigilancia Tecnológica e IA
             </span>
           </h2>
 
           <p className="max-w-4xl mx-auto text-lg text-slate-300 leading-relaxed">
-            Diplomatura Internacional articulada con la Universidad de Cadiz, disenada para el
-            fortalecimiento del talento humano Regional en herramientas sistematicas para anticipar
-            cambios tecnicos y normativos en el desarrollo portuario.
+            Diplomatura Internacional articulada con la Universidad de Cádiz, diseñada para el
+            fortalecimiento del talento humano regional en herramientas sistemáticas para anticipar
+            cambios técnicos y normativos en el desarrollo portuario.
           </p>
         </motion.div>
 
@@ -83,7 +83,7 @@ export default function Diplomado() {
                 Nombre Completo del Programa
               </h3>
               <p className="text-slate-300 leading-relaxed">
-                Diplomatura en Vigilancia Tecnologica e Inteligencia Artificial para la Promocion
+                Diplomatura en Vigilancia Tecnológica e Inteligencia Artificial para la Promoción
                 del Desarrollo Portuario
               </p>
             </div>
@@ -94,9 +94,9 @@ export default function Diplomado() {
                 Horario
               </h3>
               <p className="text-slate-300">
-                Martes y Viernes: 7:00pm a 9:00pm
+                Martes y Viernes: 7:00 p.m. a 9:00 p.m.
                 <br />
-                Sabado: 7:00am a 12:00m
+                Sábado: 7:00 a.m. a 12:00 m.
               </p>
             </div>
 
@@ -121,7 +121,7 @@ export default function Diplomado() {
                     4
                   </div>
                   <p className="text-sm text-slate-300">
-                    Garantizar una educacion inclusiva, equitativa y de calidad y promover
+                    Garantizar una educación inclusiva, equitativa y de calidad, y promover
                     oportunidades de aprendizaje durante toda la vida para todos.
                   </p>
                 </div>
@@ -130,8 +130,8 @@ export default function Diplomado() {
                     8
                   </div>
                   <p className="text-sm text-slate-300">
-                    Promover el crecimiento economico sostenido, inclusivo y sostenible, el empleo
-                    pleno y productivo y el trabajo decente para todos.
+                    Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo
+                    pleno y productivo, y el trabajo decente para todos.
                   </p>
                 </div>
               </div>
@@ -148,21 +148,21 @@ export default function Diplomado() {
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="text-xl font-semibold text-white mb-4">Objetivo General</h3>
               <p className="text-slate-300 leading-relaxed">
-                Desarrollar capacidades tecnicas y metodologicas en Vigilancia Tecnologica e
-                Inteligencia Artificial para identificar oportunidades estrategicas y formular
-                proyectos de innovacion viables que respondan a los desafios actuales de la
-                subregion del Uraba antioqueno frente al desarrollo portuario.
+                Desarrollar capacidades técnicas y metodológicas en Vigilancia Tecnológica e
+                Inteligencia Artificial para identificar oportunidades estratégicas y formular
+                proyectos de innovación viables que respondan a los desafíos actuales de la
+                subregión del Urabá antioqueño frente al desarrollo portuario.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
-              <h3 className="text-xl font-semibold text-white mb-4">Objetivos Especificos</h3>
+              <h3 className="text-xl font-semibold text-white mb-4">Objetivos Específicos</h3>
               <div className="space-y-4">
                 {[
-                  "Comprender los ciclos de la VT e IA aplicados a los retos y oportunidades afines al desarrollo portuario de la subregion.",
-                  "Dominar herramientas digitales y busqueda avanzada de informacion para la toma de decisiones en contexto.",
-                  "Analizar tendencias tecnologicas emergentes y mapear actores clave para la formulacion de proyectos de impacto en la promocion del desarrollo portuario.",
-                  "Estructurar propuestas tecnicas de proyectos fortalecidas por la VT y la IA que tengan como fin aportar al fortalecimiento del perfil socioeconomica de Uraba.",
+                  "Comprender los ciclos de la VT e IA aplicados a los retos y oportunidades afines al desarrollo portuario de la subregión.",
+                  "Dominar herramientas digitales y búsqueda avanzada de información para la toma de decisiones en contexto.",
+                  "Analizar tendencias tecnológicas emergentes y mapear actores clave para la formulación de proyectos de impacto en la promoción del desarrollo portuario.",
+                  "Estructurar propuestas técnicas de proyectos fortalecidas por la VT y la IA que tengan como fin aportar al fortalecimiento del perfil socioeconómico de Urabá.",
                 ].map((obj, i) => (
                   <div key={i} className="flex items-start gap-3">
                     <div className="w-6 h-6 rounded-full bg-cyan-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -175,14 +175,14 @@ export default function Diplomado() {
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
-              <h3 className="text-xl font-semibold text-white mb-4">Publico Objetivo</h3>
+              <h3 className="text-xl font-semibold text-white mb-4">Público Objetivo</h3>
               <div className="space-y-2">
                 {[
-                  "Estudiantes U. Luis Amigo (A partir del VI semestre)",
+                  "Estudiantes U. Luis Amigo (a partir del VI semestre)",
                   "Graduados U. Luis Amigo",
                   "Empleados U. Luis Amigo",
                   "Profesores U. Luis Amigo",
-                  "Publico Externo interesado en la tematica afin con la diplomatura",
+                  "Público externo interesado en la temática afín con la diplomatura",
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-2 text-sm text-slate-300">
                     <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 flex-shrink-0" />

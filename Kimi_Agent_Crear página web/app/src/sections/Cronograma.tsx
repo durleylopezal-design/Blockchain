@@ -91,18 +91,18 @@ export default function Cronograma() {
         >
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-500/10 border border-cyan-500/20 mb-6">
             <Calendar className="w-4 h-4 text-cyan-400" />
-            <span className="text-sm text-cyan-300 font-medium">Cronograma</span>
+            <span className="text-sm text-cyan-300 font-medium">Cronograma de Trabajo</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-            Linea de Tiempo del{" "}
+            Línea de Tiempo del{" "}
             <span className="bg-gradient-to-r from-cyan-400 to-teal-400 bg-clip-text text-transparent">
               Proyecto
             </span>
           </h2>
 
           <p className="max-w-2xl mx-auto text-lg text-slate-300">
-            Periodo de ejecucion: 5 de Febrero - 30 de Mayo 2025 | 60 horas totales de trabajo
+            Período de ejecución: 5 de febrero - 30 de mayo de 2025 | 60 horas totales de trabajo
           </p>
         </motion.div>
 
