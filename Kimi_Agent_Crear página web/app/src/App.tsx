@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/sections/Hero";
 import SobreProyecto from "@/sections/SobreProyecto";
 import Diplomado from "@/sections/Diplomado";
-import Modulo4 from "@/sections/Modulo4";
 import Modulos from "@/sections/Modulos";
 import Arquitectura from "@/sections/Arquitectura";
 import Infraestructura from "@/sections/Infraestructura";
@@ -29,7 +28,6 @@ function App() {
         <Hero />
         <SobreProyecto />
         <Diplomado />
-        <Modulo4 />
         <Modulos />
         <Arquitectura />
         <Infraestructura />
